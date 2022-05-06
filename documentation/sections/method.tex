@@ -131,8 +131,8 @@ Pix2pix was developed as a more sophisticated approach to image-to-image transla
 
 In brief, the architecture works by learning a loss function that tries to classify the output image as being either real or fake, while simultaneously training a generative model to minimise this loss. Blurry images will not be tolerated as they will easily look fake.
 
-\subsubsection*{U-NET Architecture (Generator)}
-\addcontentsline{toc}{subsubsection}{U-NET Architecture (Generator)}
+\subsubsection*{Generator Architecture}
+\addcontentsline{toc}{subsubsection}{Generator Architecture}
 
 \begin{figure}[H]
     \centering
@@ -145,8 +145,8 @@ The most important aspect of the cGAN is the generator, as this is responsible f
 
 To mitigate this issue, the generator can utilise skip connections which creates the shape of a "U-Net". This architecture adds skip connections between each \(ith\) and the \(n - i\), where \(n\) represents the number of layers in the network. Using skip connection help pass information between the encoder and the decoder, information that involves the underlining structure, which helps mitigate the blurry effect, and also why this architecture can use the RGB mapping, previously sought to produce blurry images an AutoEncoder. 
 
-\subsubsection*{PatchGan Architecture (Discriminator)}
-\addcontentsline{toc}{subsubsection}{PatchGan Architecture (Discriminator)}
+\subsubsection*{Discriminator Architecture}
+\addcontentsline{toc}{subsubsection}{Discriminator Architecture}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\columnwidth]{sections/figures/PatchGAN.png}
