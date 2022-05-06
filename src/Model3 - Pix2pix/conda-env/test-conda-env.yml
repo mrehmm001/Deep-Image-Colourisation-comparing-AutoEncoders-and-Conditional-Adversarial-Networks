@@ -1,0 +1,25 @@
+# Create new environment:
+# `conda env create -f test-conda-env.yml`
+#
+# Then activate:
+# `conda activate test`
+
+name: test
+dependencies:
+  # - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  # Installing packages directly with pip.
+  # - pip
+  - pip:
+    - opencv-python
+    - scikit-image
+    - tensorflow-gpu==2.2
+  - scikit-learn
+  - scikit-learn-intelex
+  - scipy
+  - tensorflow-gpu=2.2
+  - keras
+  # Specifying packages from other repositories.
+  # - conda-forge::librosa

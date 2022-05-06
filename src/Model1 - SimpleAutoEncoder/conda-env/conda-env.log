@@ -1,0 +1,115 @@
+Warning: you have pip-installed dependencies in your environment file, but you do not list pip itself as one of your conda dependencies.  Conda may not use the correct pip to install your packages, and they may end up in the wrong place.  Please add an explicit pip dependency.  I'm adding one for you, but still nagging you.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+Downloading and Extracting Packages
+numpy-base-1.21.5    | 6.1 MB    |            |   0% numpy-base-1.21.5    | 6.1 MB    |            |   0% numpy-base-1.21.5    | 6.1 MB    | ####3      |  44% numpy-base-1.21.5    | 6.1 MB    | ########4  |  84% numpy-base-1.21.5    | 6.1 MB    | ########## | 100% 
+numpy-1.21.5         | 23 KB     |            |   0% numpy-1.21.5         | 23 KB     | ########## | 100% numpy-1.21.5         | 23 KB     | ########## | 100% 
+setuptools-61.2.0    | 1.3 MB    |            |   0% setuptools-61.2.0    | 1.3 MB    | ########## | 100% setuptools-61.2.0    | 1.3 MB    | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... 
+
+    Installed package of scikit-learn can be accelerated using scikit-learn-intelex.
+    More details are available here: https://intel.github.io/scikit-learn-intelex
+
+    For example:
+
+        $ conda install scikit-learn-intelex
+        $ python -m sklearnex my_application.py
+
+    
+
+done
+Installing pip dependencies: ...working... Ran pip subprocess with arguments:
+['/home/students/mrehm001/.conda/envs/test/bin/python', '-m', 'pip', 'install', '-U', '-r', '/home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt']
+Pip subprocess output:
+Collecting opencv-python
+  Using cached opencv_python-4.5.5.64-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (60.5 MB)
+Collecting scikit-image
+  Using cached scikit_image-0.19.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (14.0 MB)
+Collecting tensorflow-gpu==2.2
+  Using cached tensorflow_gpu-2.2.0-cp38-cp38-manylinux2010_x86_64.whl (516.3 MB)
+Collecting scipy==1.4.1
+  Using cached scipy-1.4.1-cp38-cp38-manylinux1_x86_64.whl (26.0 MB)
+Collecting tensorflow-estimator<2.3.0,>=2.2.0
+  Using cached tensorflow_estimator-2.2.0-py2.py3-none-any.whl (454 kB)
+Requirement already satisfied: opt-einsum>=2.3.2 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (3.3.0)
+Requirement already satisfied: wheel>=0.26 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (0.37.1)
+Requirement already satisfied: gast==0.3.3 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (0.3.3)
+Requirement already satisfied: absl-py>=0.7.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (0.15.0)
+Requirement already satisfied: wrapt>=1.11.1 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (1.13.3)
+Requirement already satisfied: h5py<2.11.0,>=2.10.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (2.10.0)
+Requirement already satisfied: termcolor>=1.1.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (1.1.0)
+Requirement already satisfied: protobuf>=3.8.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (3.19.1)
+Requirement already satisfied: keras-preprocessing>=1.1.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (1.1.2)
+Requirement already satisfied: grpcio>=1.8.6 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (1.42.0)
+Requirement already satisfied: numpy<2.0,>=1.16.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (1.21.5)
+Requirement already satisfied: six>=1.12.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (1.16.0)
+Requirement already satisfied: astunparse==1.6.3 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (1.6.3)
+Collecting tensorboard<2.3.0,>=2.2.0
+  Using cached tensorboard-2.2.2-py3-none-any.whl (3.0 MB)
+Requirement already satisfied: google-pasta>=0.1.8 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (0.2.0)
+Collecting tifffile>=2019.7.26
+  Downloading tifffile-2022.4.8-py3-none-any.whl (180 kB)
+Collecting networkx>=2.2
+  Downloading networkx-2.8-py3-none-any.whl (2.0 MB)
+Requirement already satisfied: packaging>=20.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from scikit-image->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 2)) (21.3)
+Collecting PyWavelets>=1.1.1
+  Using cached PyWavelets-1.3.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (6.9 MB)
+Collecting imageio>=2.4.1
+  Downloading imageio-2.16.2-py3-none-any.whl (3.3 MB)
+Requirement already satisfied: pillow!=7.1.0,!=7.1.1,!=8.3.0,>=6.1.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from scikit-image->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 2)) (9.0.1)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from packaging>=20.0->scikit-image->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 2)) (3.0.4)
+Requirement already satisfied: requests<3,>=2.21.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (2.27.1)
+Requirement already satisfied: setuptools>=41.0.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (61.2.0)
+Requirement already satisfied: werkzeug>=0.11.15 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (2.0.3)
+Requirement already satisfied: google-auth-oauthlib<0.5,>=0.4.1 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (0.4.4)
+Collecting google-auth<2,>=1.6.3
+  Using cached google_auth-1.35.0-py2.py3-none-any.whl (152 kB)
+Requirement already satisfied: markdown>=2.6.8 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (3.3.4)
+Requirement already satisfied: tensorboard-plugin-wit>=1.6.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (1.6.0)
+Requirement already satisfied: cachetools<5.0,>=2.0.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from google-auth<2,>=1.6.3->tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (4.2.2)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from google-auth<2,>=1.6.3->tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (0.2.8)
+Requirement already satisfied: rsa<5,>=3.1.4 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from google-auth<2,>=1.6.3->tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (4.7.2)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (1.3.0)
+Requirement already satisfied: pyasn1<0.5.0,>=0.4.6 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from pyasn1-modules>=0.2.1->google-auth<2,>=1.6.3->tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (0.4.8)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from requests<3,>=2.21.0->tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (2.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from requests<3,>=2.21.0->tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (2021.10.8)
+Requirement already satisfied: idna<4,>=2.5 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from requests<3,>=2.21.0->tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (3.3)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from requests<3,>=2.21.0->tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (1.26.8)
+Requirement already satisfied: oauthlib>=3.0.0 in /home/students/mrehm001/.conda/envs/test/lib/python3.8/site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.3.0,>=2.2.0->tensorflow-gpu==2.2->-r /home/students/mrehm001/models/AutoEncoder-image_colourisation-/conda-env/condaenv.68muru50.requirements.txt (line 3)) (3.2.0)
+Installing collected packages: google-auth, tifffile, tensorflow-estimator, tensorboard, scipy, PyWavelets, networkx, imageio, tensorflow-gpu, scikit-image, opencv-python
+  Attempting uninstall: google-auth
+    Found existing installation: google-auth 2.6.0
+    Uninstalling google-auth-2.6.0:
+      Successfully uninstalled google-auth-2.6.0
+  Attempting uninstall: tensorflow-estimator
+    Found existing installation: tensorflow-estimator 2.6.0
+    Uninstalling tensorflow-estimator-2.6.0:
+      Successfully uninstalled tensorflow-estimator-2.6.0
+  Attempting uninstall: tensorboard
+    Found existing installation: tensorboard 2.4.0
+    Uninstalling tensorboard-2.4.0:
+      Successfully uninstalled tensorboard-2.4.0
+  Attempting uninstall: scipy
+    Found existing installation: scipy 1.7.3
+    Uninstalling scipy-1.7.3:
+      Successfully uninstalled scipy-1.7.3
+Successfully installed PyWavelets-1.3.0 google-auth-1.35.0 imageio-2.16.2 networkx-2.8 opencv-python-4.5.5.64 scikit-image-0.19.2 scipy-1.4.1 tensorboard-2.2.2 tensorflow-estimator-2.2.0 tensorflow-gpu-2.2.0 tifffile-2022.4.8
+
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate test
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+# conda environments:
+#
+test                     /home/students/mrehm001/.conda/envs/test
+base                  *  /usr/local/anaconda3
+
